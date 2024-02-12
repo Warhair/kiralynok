@@ -70,4 +70,17 @@ public class Tábla {
      public void fillTable() {
         Elhelyez(8);
     }
-}
+      public String[] Fajlbaír() {
+        
+        String s;
+        String[] st = new String[8];
+        for (int i = 0; i < 8; i++) {
+            s = "";
+            for (int j = 0; j < 8; j++) {
+                s += T[i][j];
+            }
+            st[i] = s;
+        }
+        return st;
+    }
+    }
