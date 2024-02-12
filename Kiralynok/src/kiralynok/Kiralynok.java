@@ -6,7 +6,9 @@ public class Kiralynok {
 
     
     public static void main(String[] args) {
-       Vezerlo vezerlo = new Vezerlo();
+       Consol consol = new Consol();
+       consol.consol_alkalmazas();
     }
+   
     
 }
